@@ -1,0 +1,23 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+    margin: 2rem;
+}
+
+.counter__message {
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.counter__increment {
+    background-color: #000000DD;
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
